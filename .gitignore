@@ -1,0 +1,61 @@
+# ----------------------------------------
+# 1. Build and Dependency Folders
+# ----------------------------------------
+
+# Ignore Node.js dependencies (if you use tools like npm/yarn for CSS/JS)
+/node_modules
+
+# Ignore distribution/compiled files (if you use tools like Webpack, Parcel, Gulp)
+/dist
+/build
+/out
+
+# ----------------------------------------
+# 2. Editor and IDE Files
+# ----------------------------------------
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (e.g., WebStorm, IntelliJ)
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# Atom
+.atom/
+
+# ----------------------------------------
+# 3. Operating System Files
+# ----------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+#*#
+
+# ----------------------------------------
+# 4. Deployment and Credentials
+# ----------------------------------------
+
+# Deployment logs or temporary files (if your deployment script creates them)
+*.log
+.env
+.secrets
+
+# Cache files created by various tools
+*.cache
